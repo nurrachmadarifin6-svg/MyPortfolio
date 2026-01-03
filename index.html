@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Rachmad Arifin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- CINEMATIC LOADER -->
+    <div id="loader">
+      <h1 class="loader-text">Summoning Arcane Power...</h1>
+    </div>
+
+    <!-- SPELL SOUND -->
+    <audio
+      id="spellSound"
+      src="https://assets.codepen.io/605876/spell.mp3"
+    ></audio>
+    <audio
+      id="hoverSound"
+      src="https://assets.codepen.io/605876/hover.mp3"
+    ></audio>
+
+    <!-- MAGIC BACKGROUND -->
+    <div class="magic-particles"></div>
+    <canvas id="magicCanvas"></canvas>
+    <div class="magic-cursor"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+  <div class="logo">Nur Rachmad Arifin</div>
+
+  <!-- HAMBURGER -->
+  <div id="hamburger" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav id="nav-menu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="btn">Contact</a>
+  </nav>
+</header>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <h1>Hi, Saya <span>Nur Rachmad Arifin</span></h1>
+      <p>Web Developer • Tech Enthusiast • Problem Solver</p>
+      <div class="hero-btn">
+        <a href="#projects" class="btn">Lihat Project</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya memiliki keterampilan di bidang administrasi, dan memiliki jiwa
+        sosial yang tinggi karena pernah aktif di beberapa organisasi, dan
+        memiliki beberapa pengalaman kerja. Dan saya memiliki keterampilan untuk
+        mengembangkan bakat digital seperti membuat website, dan google
+        workspace yang mendukung kinerja administratif lebih efektif.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section bg-dark">
+      <h2>Keahlian</h2>
+      <div class="skills">
+        <span>AutoCAD</span><span>HTML</span><span>CSS</span
+        ><span>JavaScript</span> <span>PHP</span><span>Ms. Office</span
+        ><span>Google API</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Project</h2>
+      <div class="projects">
+        <div class="project-card">
+          <a
+            href="https://dpo-pc-ipnu-ippnu-sidoarjo-8sgt.vercel.app/"
+            target="_blank"
+          >
+            Website Project
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://sikot-sidig-jfgt.vercel.app/" target="_blank">
+            Website Project
+          </a>
+        </div>
+      </div>
+
+      <div id="projectContainer" class="grid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-dark">
+      <h2>Kontak</h2>
+      <a href="https://wa.me/6289635737500" target="_blank" class="btn"
+        >WhatsApp</a
+      >
+      <a
+        href="https://www.instagram.com/nur_rachmad_arifin"
+        target="_blank"
+        class="btn"
+      >
+        Instagram
+      </a>
+    </section>
+
+    <footer>
+      <p>© 2026 Rachmad Arifin</p>
+    </footer>
+
+    <!-- MODE TOGGLE -->
+    <button id="modeToggle" class="mode-toggle">🌙</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
